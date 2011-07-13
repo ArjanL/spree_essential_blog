@@ -1,14 +1,14 @@
 nl-NL: 
   post:
     model_name: Post
-    title: Title
-    posted_at: Posted At
+    title: Titel
+    posted_at: Gepost op
     body: Body
-    live: Published
+    live: Gepubliceerd
     tags: Tags
   post_category:
-    model_name: Category
-    name: Name
+    model_name: Categorie
+    name: Naam
     permalink: Permalink
   
   admin:
@@ -19,57 +19,57 @@ nl-NL:
     admin:
       posts:
         new:
-          new_post: New Post
+          new_post: Nieuwe Post
       post_products:
         index:
-          add_related_product: Add Related Products      
+          add_related_product: Voeg gerelateerde producten toe      
       post_categories:
         index:
-          manage_categories: Manage Categories
+          manage_categories: Manage categorie‘n 
       new:
-        new_category: New Category
+        new_category: Nieuwe categorie
       edit:
-        edit_category: Edit Category
+        edit_category: Bewerk categorie
               
       shared:
         post_tabs:
-          post_details: Post Details
-          editing_post: Editing Post
-          related_products: Related Products
-          post_categories: Categories
+          post_details: Post details
+          editing_post: Bewerk post
+          related_products: Gerelateerde producten
+          post_categories: Categorie‘n
     comments: Comments
     home:
-      title: Recent Posts
-    archive: Blog Archive
-    no_posts: No posts found!
+      title: Recente Posts
+    archive: Blog Archief
+    no_posts: Geen posts gevonden!
     posts:
       index:
         blog: Blog
-        rss: Subscribe via RSS
+        rss: Aanmelden via RSS
       archive:
-        where_to_next: Where to next?
-        go_to_store: "Shop the Store"
-        back_to_posts: "Back to the blog"           
+        where_to_next: Waar nu heen?
+        go_to_store: "Winkelen"
+        back_to_posts: "Terug naar blog"           
     settings:
-      disqus: Disqus Settings
-      explain_disqus: Configure Disqus Comments for Blog
+      disqus: Disqus settingen
+      explain_disqus: Configureren Disqus Comments voor blog
       disqus_shortname: Disqus Shortname
     shared:
       sidebar: 
-        recent_posts: Recent Posts
-        categories: Categories
-        archives: Archive
-        view_archive: View Full Archive
+        recent_posts: Recente Posts
+        categories: Categorie‘n
+        archives: Archief
+        view_archive: Volledig archief tonen
         tags: Tags        
       preview: 
-        read_more: Read More
+        read_more: Lees meer
       post_tabs:
-        editing_post: Editing Post
-        post_details: Post Details
-        related_products: Related Products
-        post_categories: Categories
+        editing_post: Bewerk Post
+        post_details: Post details
+        related_products: Gerelateerde producten
+        post_categories: Categorie‘n
     subnav:
-      posts: Blog Posts      
+      posts: Blog posts      
         
   
   faker:
